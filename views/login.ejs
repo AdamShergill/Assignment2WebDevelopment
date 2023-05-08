@@ -1,0 +1,13 @@
+<%- include("templates/header") %> 
+
+<form action='/loginsubmit' method='post'>
+    <input name='email' type='text' placeholder='email' class="fadeIn second" >
+    <input name='password' type='text' placeholder='password' class="fadeIn third">
+    <input type="submit" class="fadeIn fourth" value="Log In">
+  </form>
+
+  <!-- Remind Passowrd -->
+  <div id="formFooter">
+    <a class="underlineHover" href="#">Forgot Password?</a>
+  </div>
+<%- include("templates/footer") %> 
